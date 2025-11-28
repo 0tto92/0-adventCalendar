@@ -1,0 +1,25 @@
+{
+    "calendar": {
+        "main_text": "JOULUKALENTERI",
+        "secondary_text": "%s / 24 luukkua avattu"
+    },
+
+    "textUI": {
+        "open_calendar": "[E] - Avaa joulukalenteri"
+    },
+
+    "target": {
+        "open_calendar": "Avaa joulukalenteri"
+    },
+
+    "radial_menu": {
+        "open_calendar": "Avaa kalenteri"
+    },
+
+    "notify": {
+        "title": "Joulukalenteri",
+        "not_christmas": "Ei ole vielä joulukuu – tule myöhemmin takaisin!",
+        "all_opened": "Olet avannut kaikki luukut!",
+        "spam_cooldown": "Odota hetki ennen kuin yrität uudelleen"
+    }
+}

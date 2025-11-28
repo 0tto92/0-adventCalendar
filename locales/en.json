@@ -1,0 +1,25 @@
+{
+    "calendar": {
+        "main_text": "ADVENT CALENDAR",
+        "secondary_text": "%s / 24 days opened"
+    },
+
+    "textUI": {
+        "open_calendar": "[E] - Open Advent Calendar"
+    },
+
+    "target": {
+        "open_calendar": "Open Advent Calendar"
+    },
+
+    "radial_menu": {
+        "open_calendar": "Open Calendar"
+    },
+
+    "notify": {
+        "title": "Advent Calendar",
+        "not_christmas": "It's not December yet — come back later!",
+        "all_opened": "You've opened every day!",
+        "spam_cooldown": "Wait a few seconds before trying again."
+    }
+}
