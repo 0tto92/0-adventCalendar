@@ -11,8 +11,6 @@ local PATHS <const> = {
     'qb'
 }
 
-local OPENED_DAYS = {}
-
 if CONFIG.framework == 'auto' then
     for i = 1, #PATHS do
         FRAMEWORK = require('src.server.editables.framework.' .. PATHS[i])
@@ -37,9 +35,9 @@ end
 
 lib.callback.register('advent_calendar:getData', function(playerSource)
     local currentMonth = os.date('%m')
-    -- if currentMonth ~= 12 then
-    --     return {}, false
-    -- end
+    if currentMonth ~= 12 then
+        return {}, false
+    end
 
     local playerIdentifier = FRAMEWORK:GetPlayerIdentifier(playerSource)
     if not playerIdentifier then return {}, false end
